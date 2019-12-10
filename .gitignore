@@ -1,2 +1,7 @@
 broker_1
 zbctl.darwin
+.settings
+target
+.classpath
+.project
+dependency-reduced-pom.xml
