@@ -25,7 +25,7 @@ services:
         ports:
             - "9090:9090"
     broker-1:
-        image: camunda/zeebe:${ZEEBE_VERSION:-latest}
+        image: dalongrong/zeebe:${ZEEBE_VERSION:-latest}
         ports:
             - 26500:26500
             - 26501:26501
