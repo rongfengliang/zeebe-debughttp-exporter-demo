@@ -1,15 +1,16 @@
 {
+  "__inputs": [
+    {
+      "name": "DS_PROM",
+      "label": "prom",
+      "description": "A prometheus datasource with zeebe Exporter scraping",
+      "type": "datasource",
+      "pluginId": "prometheus",
+      "pluginName": "Prometheus"
+    }
+  ],
   "annotations": {
     "list": [
-      {
-        "builtIn": 1,
-        "datasource": "-- Grafana --",
-        "enable": true,
-        "hide": true,
-        "iconColor": "rgba(0, 211, 255, 1)",
-        "name": "Annotations & Alerts",
-        "type": "dashboard"
-      }
     ]
   },
   "editable": true,
